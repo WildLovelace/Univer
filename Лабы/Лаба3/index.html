@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лаба3</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <p>Подсчёт площади треугольника</p>
+
+    <script>
+        function care(x1,y1,x2,y2,x3,y3) {
+        alert(Math.abs(Number(x2 - x1) * Number(y3 - y1) - Number(x3 - x1) * Number(y2 - y1))/2);}
+    </script>
+
+    <form name="form1">
+        <input type = "text" size = 15 name = "str1" placeholder = "x1"> &nbsp;
+        <input type = "text" size = 15 name = "str2" placeholder = "y1"><br>
+        <input type = "text" size = 15 name = "str3" placeholder = "x2"> &nbsp;
+        <input type = "text" size = 15 name = "str4" placeholder = "y2"><br>
+        <input type = "text" size = 15 name = "str5" placeholder = "x3"> &nbsp;
+        <input type = "text" size = 15 name = "str6" placeholder = "y3"><br>
+    <input type="button" 
+    value = Вычислить onclick = "care(document.form1.st1.value, document.form1.st2.value, 
+    document.form1.st3.value, document.form1.st4.value, document.form1.st5.value, document.form1.st6.value)">
+    
+    <script>
+        function nach(x,y) {
+            alert(Math.sqrt(Number(Math.pow(x,2) + Math.pow(y,2))));
+        }
+    </script>
+
+    <input type = "button" value = "Вычислить начало" onclick = "nach(document.form1.st1.value, document.form1.st2.value,)">
+    
+    <script>
+        function swap(x,y) {
+            let temp = x;
+            x = y;
+            y = temp;
+            alert(x + " " + y);
+        }
+    </script>
+
+    <input type = "button" value = "swap" onclick = "swap(document.form1.st1.value, document.form1.st2.value,)">
+</form>
+</body>
+</html>

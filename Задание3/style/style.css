@@ -1,0 +1,188 @@
+body {
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 16px;
+    background: url(../img/back.jpg) no-repeat center;
+    background-size: cover;
+}
+
+h1 {
+    margin: 0 0 14px 0;
+    font-size: 32px;
+    color: white;
+}
+
+h2 {
+    font-size: 25px;
+    padding: 25px 0 5px 5px;
+}
+
+.h2--undertext {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.container {
+    width: 60%;
+    margin: 20px auto;
+}
+
+.card {
+    backdrop-filter: blur(10px);
+    border-radius: 28px;
+    padding: 0 10px;
+    min-height: 888px;
+}
+
+.card2 {
+    border-radius: 8px;
+    padding: 0 20px;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.card_photo {
+    margin: 15px 0 5px 0;
+    max-height: 700px;
+    max-width: 700px;
+    border-radius: 50%;
+}
+
+.card_portfolio {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.card_portfolio2 {
+    text-align: left;
+}
+
+.portfolio_ul {
+    margin: 5px 0;
+    padding-left: 25px;
+}
+
+.card_contacts {
+    text-align: left;
+}
+
+.links {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: .2s linear;
+}
+
+.links:hover {
+    color: #424242;
+}
+
+.card_button {
+    padding: 15px 0;
+}
+
+.button {
+    background-color: #000000;
+    padding: 7px 7px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+    transition: .2s linear;
+    font-size: 20px;
+}
+
+.button:hover {
+    background-color: #424242;
+}
+
+.button_1 {
+    background-color: #424242;
+    padding: 7px 7px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+    transition: .2s linear;
+    font-size: 20px;
+}
+
+.button_1-active {
+    background-color: #424242;
+}
+
+.button_1:hover {
+    background-color: rgb(146, 146, 146);
+}
+
+.input {
+    font-size: 20px;
+    border: 0;
+    border-radius: 5px;
+    text-align: center;
+    width: 700px;
+    height: 300px;
+    margin-top: 40px;
+}
+
+.invis {
+    display: none;
+}
+
+.dropbtn {
+    background-color: #424242;
+    color: white;
+    padding: 7px 7px;
+    font-size: 20px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: rgb(146, 146, 146);
+}

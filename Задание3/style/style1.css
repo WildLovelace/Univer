@@ -1,0 +1,83 @@
+body {
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+.card2 {
+    background-color: white;
+    border-radius: 3px;
+    padding: 0 20px;
+
+}
+
+.card_portfolio2 {
+    text-align: left;
+}
+
+.portfolio__ul {
+    margin: 5px 0;
+    padding-left: 25px;
+}
+
+.card_contacts {
+    text-align: left;
+}
+
+.links {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: .2s linear;
+}
+
+.links:hover {
+    color: rgb(42, 42, 42);
+}
+
+.card_button {
+    padding: 15px 0;
+}
+
+.button {
+    background-color: #000000;
+    padding: 7px 7px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+    transition: .2s linear;
+    font-size: 20px;
+}
+
+.button:hover {
+    background-color: #424242;
+}
+
+.input {
+    font-size: 20px;
+    border: 0;
+    border-radius: 5px;
+    text-align: center;
+    width: 700px;
+    height: 300px;
+}
+
+.bttn {
+    margin-top: 20px;
+}

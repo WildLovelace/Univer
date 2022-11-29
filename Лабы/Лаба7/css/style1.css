@@ -1,0 +1,109 @@
+body {
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 32px;
+    margin: 0 0 14px 0;
+}
+
+h2 {
+    font-size: 25px;
+    padding: 25px 0 5px 5px;
+}
+
+.h2--undertext {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.container {
+    width: 65%;
+    margin: 40px auto;
+}
+
+.card {
+    background-color: white;
+    border-radius: 7px;
+    padding: 0 20px;
+    min-height: 2000px;
+}
+
+.card2 {
+    background-color: white;
+    border-radius: 3px;
+    padding: 0 20px;
+}
+
+.card_photo {
+    margin: 15px 0 5px 0;
+    max-height: 700px;
+    max-width: 700px;
+    border-radius: 50%;
+}
+
+.card_portfolio {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.card_portfolio2 {
+    text-align: left;
+}
+
+.portfolio__ul {
+    margin: 5px 0;
+    padding-left: 25px;
+}
+
+.card_contacts {
+    text-align: left;
+}
+
+.links {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: .2s linear;
+}
+
+.links:hover {
+    color: rgb(42, 42, 42);
+}
+
+.card_button {
+    padding: 15px 0;
+}
+
+.button {
+    background-color: #000000;
+    padding: 7px 7px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+    transition: .2s linear;
+    font-size: 20px;
+}
+
+.button:hover {
+    background-color: #424242;
+}
+
+.card_AMOGUS {
+    text-align: left;
+}
+
+.input {
+    font-size: 20px;
+    border: 0;
+    border-radius: 5px;
+    text-align: center;
+    width: 700px;
+    height: 300px;
+}
+
+.bttn {
+    margin-top: 20px;
+}

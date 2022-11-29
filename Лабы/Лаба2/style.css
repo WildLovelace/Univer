@@ -1,0 +1,11 @@
+body {
+    background: url(img/GN.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+}

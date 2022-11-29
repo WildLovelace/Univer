@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(../img/GN.png);
+}
+
+.images {
+  background-color: black;
+  margin: 100px auto;
+  display: flex;
+  align-items: center;
+  column-gap: 40px;
+  border: 2px solid black;
+  width: 1000px;
+  box-sizing: border-box;
+}
+
+.img_container {
+  position: relative;
+  width: 300px;
+  border-right: 2px solid black;
+}
+
+.img_container:last-of-type {
+  border-right: none;
+}
+
+.img {
+  width: 300px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.img:hover {
+  transform: scale(1.1);
+}
+
+.img:active,
+.img:focus {
+  opacity: 0.7;
+}
+
+.img_container:hover::before {
+  position: absolute;
+  content: '';
+  width: 22px;
+  height: 22px;
+  top: -60px;
+  left: 50%;
+  background-color: #ffffff;
+  transform: translateX(-50%);
+  background-image: url(../img/cursor.png);
+  background-repeat: no-repeat;
+  background-size: 18px auto;
+  background-position: 50% 50%;
+  border-radius: 50%;
+  box-shadow: 0 0 5px 5px #ffffff;
+}
+
+.img:active {
+  outline: 5px solid #ffffff;
+  outline-offset: -5px;
+}
+
+.card {
+  margin: -4% 40.6%;
+}
+
+.card_container {
+  width: 300px;
+  border: 2px solid black;
+}
+
+.card_img {
+  width: 300px;
+}

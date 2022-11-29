@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Лаба10</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style/style1.css">
+</head>
+
+<body>
+    <div class="card2">
+        <h3>Выберите курс:</h3>
+        <select id="courses" name="courses">
+            <option value="corse_html">HTML</option>
+            <option value="corse_js">JavaScript</option>
+            <option value="corse_cpp">C++</option>
+        </select>
+        <h3>Выберите количество занятий в неделю:</h3>
+        <select id="count" name="count">
+            <option value="count_1">1</option>
+            <option value="count_2">2</option>
+            <option value="count_3">3</option>
+        </select>
+        <h3>Выберите форму обучения:</h3>
+        <input id="type_eye" type="radio" name="typeLearn">
+        <label for="type_eye">Очно</label>
+        <input id="type_zoom" type="radio" name="typeLearn">
+        <label for="type_zoom">Дистанционно</label>
+        <p id="price_1" class="invis"></p>
+        <div id="price_button" class="card_button bttn">
+            <a href="#" class="button">Узнать стоимость</a>
+        </div>
+    </div>
+    <script src="script/myscript2.js"></script>
+</body>
+
+</html>

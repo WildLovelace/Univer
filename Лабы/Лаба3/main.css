@@ -1,0 +1,16 @@
+body {
+    background: url(back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:White;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding-top: 150px;
+}
+
+:focus {
+    background-color:aqua;
+}
